@@ -1,0 +1,228 @@
+h1 {
+  text-align: center;
+}
+
+.div-pattern div {
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url("./pexels-cottonbro-studio-7014770.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  background-position: center;
+  padding-top: 70px;
+  border-bottom: 2px solid #18455880;
+ 
+}
+
+#header-page {
+
+  display: flex;
+  flex-direction: column;
+
+}
+a{
+  text-decoration: none;
+  
+}
+#header-page button {
+  display: flex;
+ 
+  justify-content: center;
+  color: #ccdce7;
+  font-size: 1.3rem;
+  font-weight: bolder;
+  padding: 16px 32px;
+  letter-spacing: 3px;
+  background-color: transparent;
+  border-color: #1472B7;
+  border-radius: 30px;
+  border-width: 4px;
+
+}
+
+#header-page p {
+  white-space: pre-line;
+  color: aliceblue;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 35px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  /* text-align: center; */
+
+}
+
+h1 {
+
+  font-style: normal;
+  font-weight: 900;
+  font-size: 2.5rem;
+  line-height: 47px;
+  color: #1472B7;
+  /* background: linear-gradient(180deg, #084661 0%, #1472B7 100%); */
+  -webkit-background-clip: text;
+  background-clip: text;
+  white-space: pre-line;
+}
+
+.logo {
+  /* display: flex;
+   width: 160px; */
+  border-radius: 50%;
+  /* align-self: center; */
+  background-color: rgba(0, 0, 0, .2);
+  height: 200px;
+  width: 200px;
+  margin: auto;
+  border-radius: 50%;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.div-description{
+  background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url("./pexels-photo-2047905.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  background-position: center;
+  padding-top: 70px;
+  color: white;
+  font-size: 18px;
+
+}
+body {
+ background-color: black;
+}
+#description-section{
+  margin: 30px auto 0;
+  border-bottom: 2px solid #18455880;
+
+}
+.description-list{
+ margin: 30px 0;
+  width: 500px;
+  border: 2px solid ;
+  padding: 16px 32px;
+  letter-spacing: 3px;
+  border-color: #1472B7;
+  background-color: #252525;;
+  border-radius: 30px;
+  border-width: 4px;
+  box-shadow: inset -5px 6px 8px rgb(0 0 0 / 70%);
+}
+.description-list span{
+  color: #1472B7;
+  font-weight: bolder;
+}
+.div-description h2{
+  color:#1472B7;
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin: 30px 0;
+}
+
+#developer-information{
+  /* padding: 50% 20%; */
+  
+  height: 560px;
+    background-size: cover;
+    
+    background-image: url("./pexels-christina-morillo-1181555.jpg");
+    background-attachment: fixed;
+    border-bottom: 1px solid #33A8DB80;
+    display: flex;
+   
+    
+}
+#developer-information div p{
+  color: aliceblue;
+  font-weight: 900;
+    font-size: 2.5rem;
+    max-width: 250px;
+    text-shadow: 3px 2px #33a8db;
+   margin: 30px;
+   
+
+} 
+#developer-information div{
+  display: flex;
+  flex-wrap: wrap;
+
+ 
+} 
+
+#developer-information div a img{
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+#call-to-blog{
+  background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url("./Jornal.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 600px;
+  background-position: center;
+  color: white;
+  font-size: 18px;
+  display: flex;
+}
+#call-to-blog div a img{
+  width: 100px;
+  
+  
+}
+#call-to-blog div {
+  padding-top: 20px;
+  flex-wrap: wrap;
+  white-space: pre-line;
+  color: aliceblue;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 35px;
+}
+#blog-info h1{
+  font-size: 30px;
+  max-width: 300px;
+  
+}
+
+#blog-link p{
+text-align:end ;
+max-width: 300px;
+  
+}
+#blog-link{
+  justify-content: right;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+  justify-content: flex-end;
+  padding-right: 30px;
+}
+
+
+.material-symbols-outlined{
+  font-size: 82px;
+  color: aliceblue;
+}
+footer{
+  display: flex;
+  height: 200px;
+  padding: 20px;
+}
+footer img{
+  border-radius: 50%;
+  max-height: 200px;
+  margin: auto;
+}

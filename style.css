@@ -1,49 +1,5 @@
-p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    padding-left: 20px;
-    white-space: break-spaces;
+* {
+  font-family: 'Raleway', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
 }
-
-.blog-text{
-    word-break: keep-all;
-    text-align: justify;
-    column-count:2;
-}
-
-#text-historia blockquote{ 
-   text-indent: 4rem;
-   text-align: justify center;
-   padding-left: 25px;
-   font-style: italic;
-   font-weight: bold;
-}
-
-#text-educacao blockquote{ 
-    text-indent: 4rem;
-    text-align: justify center;
-    padding-left: 25px;
-    font-style: italic;
-    font-weight: bold;
- }
-
- #text-introducao{
-    word-break: keep-all;
-    text-align: justify;
-    font-size: 18px;
- }
- 
- a {
-    text-decoration: none;
-    color: black;
-    font-size: 15px;
-    font-weight: 600;
-    font-style: italic;
- }
-
- .section-title {
-    text-decoration: underline dotted;
-    font-style: oblique;
- }
- h1 {
-    text-align: center;
- }
